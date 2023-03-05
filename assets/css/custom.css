@@ -1,0 +1,190 @@
+ /* * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .container {
+     border: 2px solid green;
+     margin: 40px 10px 60px 40px;
+     padding: 20px;
+ }
+
+ .description {
+     font-size: 16px;
+     color: gray;
+     text-align: center;
+     border: 1px solid yellow;
+     padding: 40px;
+     margin: 20px;
+ }
+
+ #name {
+     color: blue;
+     font-size: 40px;
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 100px;
+     margin-top: 50px;
+     padding-top: 100px;
+     border: 1px solid red;
+ }
+ */
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body{
+    /* background-color: lightgray; */
+    /* color: red; */
+ }
+
+ a {
+    text-decoration: none;
+    color: black;
+ }
+
+ div.container{
+    width: 100%;
+    height: 100vh;
+ }
+
+
+div.nav-bar{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+
+.nav-bar .nav .nav-list{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;  
+
+
+}
+
+div.nav-bar a.logo {
+    
+    color: black;
+    font-size: 50px;
+}
+div.nav-bar a.logo #first-g {
+    color: blue;
+}
+
+div.nav-bar a.logo #first-o {
+    color: red;
+}
+
+div.nav-bar a.logo #second-o {
+    color: #fff000;
+}
+
+div.nav ul.nav-list .nav-item {
+    padding: 10px 30px;
+    
+    background-color: #cccccc;
+}
+
+div.nav ul.nav-list .nav-item a {
+    color: green;
+    font-size: 18px;
+}
+
+div.nav ul.nav-list .nav-item:hover {
+    background-color: #ffff66;
+
+}
+
+div.nav ul.nav-list .nav-item a:hover {
+    color: black;
+}
+
+
+.hero{
+    margin: 50px auto;
+    /* padding: 80px 50px; */
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-image: url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Beautiful-Stars-Landscape-Background-Image-.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(0,0,0);
+    opacity: 0.9;
+}
+
+.hero #first-content{
+    font-size: 100px;
+    color: white;
+
+
+}
+
+.hero .mytext{
+    color: white;
+    font-size: 60px;
+}
+
+/* div.container div.nav-bar div.nav{
+    display: inline-block;
+}
+
+div.nav-bar a.logo{
+    margin-right: 600px;
+    color: black;
+    font-size: 50px;
+}
+
+div.nav-bar a.logo #first-g {
+    color: blue;
+}
+div.nav-bar a.logo #first-o {
+    color: red;
+}
+div.nav-bar a.logo #second-o {
+    color: #fff000;
+}
+
+
+div.nav ul.nav-list .nav-item{
+    display: inline-block;
+    padding: 15px 30px;
+    margin-right: 12px;
+    background-color: #cccccc;
+}
+
+div.nav ul.nav-list .nav-item a{
+ color: green;
+ font-size: 18px;
+}
+
+div.nav ul.nav-list .nav-item:hover{
+    background-color: #ffff66;
+    
+}
+
+div.nav ul.nav-list .nav-item a:hover{
+    color: black;
+}
+
+ */
+
+
+ 

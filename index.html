@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Michael S. O" />
+    <meta
+      name="description"
+      content="education website for all digital corpers"
+    />
+    <title>Digi corpers website</title>
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <!-- <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        border: 2px solid green;
+        margin: 40px 10px 60px 40px;
+        padding: 20px;
+      }
+
+      .description {
+        font-size: 16px;
+        color: gray;
+        text-align: center;
+        border: 1px solid yellow;
+        padding: 40px;
+        margin: 20px;
+      }
+
+      #name {
+        color: blue;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-top: 50px;
+        padding-top: 100px;
+        border: 1px solid red;
+      }
+    </style> -->
+  </head>
+  <body>
+    <!--
+    Forms
+    attributes  (id, class, style)
+    inline and block-level elements
+    intro to css
+    -->
+
+    <form
+      action="response/success.html"
+      method="POST"
+      style="margin-bottom: 250px"
+    >
+      <table id="table1">
+        <tr>
+          <td><label>Name of Student</label></td>
+          <td>
+            <input
+              class="input-class"
+              type="text"
+              name="name"
+              required
+              placeholder="e.g. Michael S. O"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label>Date of Birth</label></td>
+          <td><input class="input-class" type="date" name="date" /></td>
+        </tr>
+        <tr>
+          <td><label>Number of Certificate you have</label></td>
+          <td>
+            <input
+              class="input-class"
+              type="number"
+              name="certicateNumber"
+              placeholder="Enter number of certificate"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label>Phone Number</label></td>
+          <td>
+            <input
+              type="tel"
+              name="telphone"
+              minlength="8"
+              maxlength="12"
+              placeholder="e.g. +234 7012345678"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label>Gender</label></td>
+          <td>
+            <input type="radio" name="gender" value="male" />male
+            <input type="radio" name="gender" value="female" />female
+            <select>
+              <option>select gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <br />
+            <label>hobbies</label>
+            <input type="checkbox" name="anothergender" />dancing
+
+            <input type="checkbox" name="anothergender" />reading
+            <input type="checkbox" name="anothergender" />surfing the net
+          </td>
+        </tr>
+        <tr>
+          <td><label>Upload an Image</label></td>
+          <td><input type="file" accept="jpg/png/pdf" /></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">
+            <button type="submit">Send</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <!-- <p
+      style="
+        color: white;
+        font-size: 40px;
+        background-color: black;
+        padding: 150px;
+        line-height: 1.5;
+        width: 800px;
+        height: 400px;
+        margin: 0 auto;
+      "
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis laboriosam
+      totam suscipit fugit consequatur aliquam animi. Molestiae, voluptatibus
+      rerum odit, illum optio cupiditate consectetur eligendi officia ipsam
+      molestias, corporis architecto!
+    </p> -->
+
+    <!--Inline and block-level elements-->
+    <!-- <h1 style="color: darkblue; display: inline">
+      Digi <a style="color: darkred">Corpers</a>
+    </h1>
+
+    <span>Stay beside h1 </span> -->
+
+    <!--Introduction to CSS-->
+    <div class="container">
+      <h3 id="name">Grace</h3>
+      <p class="description">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ad
+        minima dicta at quae magni, quisquam impedit placeat? Nobis maiores quia
+        voluptas temporibus, non ut asperiores aliquid pariatur quos. A?
+      </p>
+    </div>
+
+    <div class="container">
+      <h3 id="name">Frico</h3>
+      <p class="description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+        officiis sapiente praesentium tempore vel? Incidunt reprehenderit
+        blanditiis fuga vel tempora vero error adipisci, quas laborum fugit
+        aperiam natus aspernatur porro.
+      </p>
+    </div>
+
+    Box Model
+  </body>
+</html>
